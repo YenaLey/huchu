@@ -92,6 +92,7 @@ function List(props) {
                 {/* 제목 */}
                 {props.list[props.index][0]}
                 {/* 따봉 */}
+                <br></br>
                 <span onClick={(e) => {
                     const copylist = [...props.list];
                     copylist[props.index][4] += 1;

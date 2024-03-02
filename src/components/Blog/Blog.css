@@ -12,10 +12,21 @@
     justify-content: start;
     align-items: center;
     width: 50%;
-    min-height: calc(100vh - 60px - 32px);
 
     @media (max-width: 900px) {
         width: 100%;
+    }
+}
+
+.left-container {
+    height: auto;
+}
+
+.right-container{
+    min-height: calc(100vh - 60px - 32px);
+
+    @media (max-width: 900px) {
+        padding-top: 100px;
     }
 }
 
@@ -80,6 +91,10 @@
     justify-content: center;
     align-items: start;
     cursor: pointer;
+
+    @media (max-width: 600px) {
+        width: 90%;
+    }
 }
 
 .list button {
@@ -88,6 +103,14 @@
     bottom: 0;
     margin: 10px;
     cursor: pointer;
+}
+
+.list br {
+    display: none;
+
+    @media (max-width: 600px) {
+        display: block; 
+    }
 }
 
 .modal {
@@ -102,6 +125,10 @@
     box-shadow: 0 0 10px grey;
     padding: 20px;
     cursor: pointer;
+
+    @media (max-width: 600px) {
+        width: 80%;
+    }
 }
 
 .modal p {

@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useState, useEffect, useRef } from 'react';
+import { Link, Element } from 'react-scroll';
+import Gallery from './components/Gallery/Gallery';
+import Blog from './components/Blog/Blog';
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <nav className="navbar">
+        <div className="logo">
+          <Link to="gallery" smooth={true} duration={500}>Huchu</Link>
+        </div>
+        <div className="pc-menu">
+          <ul>
+            <li><Link to="gallery" smooth={true} duration={500}>Gallery</Link></li>
+            <li><Link to="blog" smooth={true} duration={500}>Blog</Link></li>
+          </ul>
+        </div>
+      </nav>
+
+      <Element name="gallery" className="section"><Gallery /></Element>
+      <Element name="blog" className="section"><Blog /></Element>
+    </>
   );
 }
 

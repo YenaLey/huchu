@@ -6,19 +6,7 @@
     flex-wrap: wrap;
 }
 
-.left-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    width: 50%;
-
-    @media (max-width: 900px) {
-        width: 100%;
-    }
-}
-
-.right-container {
+.left-container, .right-container {
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -28,7 +16,6 @@
 
     @media (max-width: 900px) {
         width: 100%;
-        padding-top: 100px;
     }
 }
 

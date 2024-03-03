@@ -132,6 +132,7 @@ function Modal(props) {
             props.setModal(false);
         }}>
             <h3>{props.list[props.modalIndex][0]}</h3>
+            <h4>{props.list[props.modalIndex][1]}</h4>
             <h4>{props.list[props.modalIndex][2]}</h4>
             <p>{props.list[props.modalIndex][3]}</p>
         </div>

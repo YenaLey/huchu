@@ -53,7 +53,7 @@ function Card(props) {
     return (
         <div className="picture-card">
             <img src={props.img}></img>
-            <h4>{props.title}</h4>
+             <h4>{props.title}</h4>
             <p>{props.description}</p>
         </div>
     )

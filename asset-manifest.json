@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/huchu/static/css/main.b326156c.css",
+    "main.css": "/huchu/static/css/main.cf7c2464.css",
     "main.js": "/huchu/static/js/main.b1400497.js",
     "static/js/453.a6f86d7e.chunk.js": "/huchu/static/js/453.a6f86d7e.chunk.js",
     "index.html": "/huchu/index.html",
-    "main.b326156c.css.map": "/huchu/static/css/main.b326156c.css.map",
+    "main.cf7c2464.css.map": "/huchu/static/css/main.cf7c2464.css.map",
     "main.b1400497.js.map": "/huchu/static/js/main.b1400497.js.map",
     "453.a6f86d7e.chunk.js.map": "/huchu/static/js/453.a6f86d7e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b326156c.css",
+    "static/css/main.cf7c2464.css",
     "static/js/main.b1400497.js"
   ]
 }

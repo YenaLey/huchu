@@ -3,8 +3,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link, Element } from 'react-scroll';
 import Gallery from './components/Gallery/Gallery';
 import Blog from './components/Blog/Blog';
-import Test from './components/Test/Test';
-
 
 function App() {
 
@@ -33,7 +31,7 @@ function App() {
           </ul>
         </div>
 
-        {/* <input id="menu-toggle" type="checkbox" checked={menuOpen} onChange={toggleMenu} />
+        <input id="menu-toggle" type="checkbox" checked={menuOpen} onChange={toggleMenu} />
         <label className='menu-button' htmlFor="menu-toggle">
           <span className="line line1"></span>
           <span className="line line2"></span>
@@ -45,11 +43,11 @@ function App() {
             <li><Link to="gallery" smooth={true} duration={500} onClick={closeMenu}>Gallery</Link></li>
             <li><Link to="blog" smooth={true} duration={500} onClick={closeMenu}>Blog</Link></li>
           </ul>
-        </div> */}
+        </div>
       </nav>
 
       <Element name="gallery" className="section"><Gallery /></Element>
-      <Element name="blog" className="section"><Test /></Element>
+      <Element name="blog" className="section"><Blog /></Element>
     </>
   );
 }
